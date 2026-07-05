@@ -1,0 +1,14 @@
+git hub reposiory
+git clone <url> # getting the code from github to your local repo
+git checkout -b feature/newfeature  # creating the new feature branch and switching to it 
+Make chnages in your required file
+git add .
+git commit -m "modifyed the azure arc demoplymet code for the CR>
+git push origin feature/newfeature
+Raise a PR
+once it approved
+git pull origin main
+git checkout main
+git merge feature/newfeature
+git push orgin main
+
